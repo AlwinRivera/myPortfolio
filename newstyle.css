@@ -187,7 +187,7 @@ h1 {
   background-color: #91BF2C;
   font-size: 17px;
   width: 175px;
-  Height:100px;
+  Height:40px;
   display: inline-block;
   cursor: pointer; }
 
@@ -309,7 +309,7 @@ Z-index:2;}
 
 #contact2 {
   display: inline-block;
-  float: right;
+  float: center;
   width: 384px;
   padding: 0 0 0 45px;
   border: 2px solid transparent;

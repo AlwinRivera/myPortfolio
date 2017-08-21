@@ -175,7 +175,7 @@ h1 {
   Height:300px;
   Padding:0;
   Border:2px solid transparent;
-  Margin:0 auto;
+  Margin:0 auto -50px auto;
 }
 .mainButton, .mainButton2 {
   Float:center;

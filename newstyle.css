@@ -265,9 +265,13 @@ h3 a {
   position: relative; }
 
 /*END OF GOOGLE MAPS*/
+
+
 /*START OF CONTACT PAGE*/
 #contact {
   width: 100%;
+  Padding-left:70px;
+  Padding-right:70
   position: relative; }
 
 #contact1 {

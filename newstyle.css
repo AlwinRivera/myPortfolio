@@ -187,7 +187,7 @@ h1 {
   background-color: #91BF2C;
   font-size: 17px;
   width: 175px;
-  Height:60px;
+  Height:50px;
   display: inline-block;
   cursor: pointer; }
 
@@ -275,7 +275,7 @@ h3 a {
   position: relative; }
 
 #contact1 {
-  width: 250px;
+  width: 5%;
   border: 1px solid transparent;
   padding: 15px;
   margin:0;
@@ -310,7 +310,7 @@ Z-index:2;}
 #contact2 {
   display: inline-block;
   float: center;
-  width: 100%;
+  width: 90%;
   padding: 0 90px 0 45px;
   border: 2px solid transparent;
   margin: 0 auto 0 0; }

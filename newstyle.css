@@ -271,16 +271,16 @@ h3 a {
 #contact {
   width: 100%;
   Padding-left:70px;
-  Padding-right:70
+  Padding-right:70px;
   position: relative; }
 
 #contact1 {
   width: 250px;
   border: 1px solid transparent;
   padding: 15px;
-  margin: 0px;
+  margin:0;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 0;
   float: left;
   display: inline-block; }
 
@@ -290,7 +290,8 @@ h3 a {
   border: 2px solid #fff;
   margin: -60px auto 0px auto;
   display: block;
-  padding: 0; }
+  padding: 0; 
+Z-index:2;}
 
 #contactNo {
   display: block;
@@ -312,7 +313,7 @@ h3 a {
   width: 384px;
   padding: 0 45px;
   border: 2px solid transparent;
-  margin: 0 auto 0 auto; }
+  margin: 0 auto 0 0; }
 
 form {
   float: left;
@@ -344,6 +345,20 @@ textarea {
   resize: none;
   font-family: Arial, Helvetica, sans-serif; }
 
+input[type=text], textarea {
+  @include transition(all 0.30s ease-in-out);
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  @include box-shadow(0 0 5px rgba(81, 203, 238, 1));
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
 #submitButton {
   display: inline-block;
   background-color: #fff;

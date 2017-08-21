@@ -172,7 +172,7 @@ h1 {
 
 #homeButtons{
   Width:375px;
-  Height:100px;
+  Height:40px;
   Padding:0;
   Border:2px solid transparent;
   Margin:0 auto -50px auto;
@@ -200,7 +200,7 @@ h1 {
 /*END OF HOMEPAGE*/
 /*START OF PROJECTS*/
 #projectsContainer {
-  margin-top: -35px; 
+  margin-top: 35px; 
 Pointer-events:none;}
 
 #proj {
@@ -311,7 +311,7 @@ Z-index:2;}
   display: inline-block;
   float: right;
   width: 384px;
-  padding: 0 45px;
+  padding: 0 0 0 45px;
   border: 2px solid transparent;
   margin: 0 auto 0 0; }
 

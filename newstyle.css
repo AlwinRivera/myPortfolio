@@ -172,7 +172,7 @@ h1 {
 
 #homeButtons{
   Width:375px;
-  Height:300px;
+  Height:100px;
   Padding:0;
   Border:2px solid transparent;
   Margin:0 auto -50px auto;
@@ -345,7 +345,7 @@ textarea {
   resize: none;
   font-family: Arial, Helvetica, sans-serif; }
 
-input[type=text], textarea {
+input[type=text], textarea, input[type=email]:focus, input[type=tel]:focus{
   @include transition(all 0.30s ease-in-out);
   outline: none;
 }

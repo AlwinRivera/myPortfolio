@@ -279,7 +279,7 @@ h3 a {
   border: 1px solid transparent;
   padding: 15px;
   margin:0;
-  margin-left: auto;
+  margin-left: 1em;
   margin-right: 2px;
   float: left;
   display: inline-block; }
@@ -310,10 +310,10 @@ Z-index:2;}
 #contact2 {
   display: inline-block;
   float: center;
-  width: 60%;
+  width: 70%;
   padding: 0 90px 0px 45px;
   border: 2px solid transparent;
-  margin: 0 auto 0 30px; }
+  margin: 0 auto 0 80px; }
 
 form {
   float: left;

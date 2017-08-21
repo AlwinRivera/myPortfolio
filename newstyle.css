@@ -280,7 +280,7 @@ h3 a {
   padding: 15px;
   margin:0;
   margin-left: auto;
-  margin-right: 0;
+  margin-right: 2px;
   float: left;
   display: inline-block; }
 
@@ -311,9 +311,9 @@ Z-index:2;}
   display: inline-block;
   float: center;
   width: 70%;
-  padding: 0 90px 0 45px;
+  padding: 0 90px 0px 45px;
   border: 2px solid transparent;
-  margin: 0 auto 0 0; }
+  margin: 0 auto 0 10px; }
 
 form {
   float: left;

@@ -200,7 +200,8 @@ h1 {
 /*END OF HOMEPAGE*/
 /*START OF PROJECTS*/
 #projectsContainer {
-  margin-top: 5px; }
+  margin-top: -45px; 
+Pointer-events:none;}
 
 #proj {
   padding: 0px;

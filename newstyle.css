@@ -169,7 +169,13 @@ h1 {
 #contactLink {
   text-decoration: underline;
   color: #fff; }
-
+.homeButtons{
+  Width:20em;
+  Height:100px;
+  Padding:0;
+  Border:2px solid transparent;
+  Margin:0 auto;
+}
 .mainButton, .mainButton2 {
   Float:center;
   color: #fff;

@@ -9,10 +9,7 @@
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 </script>
-<![endif]-->
-<script>
-    $(".fade").hide(0).delay(500).fadeIn(3000)
-</script>							      
+<![endif]-->							      
 </head>
 <body class="fade">
   <!-- CONTENTS
@@ -26,7 +23,7 @@
   -->
   
   <!--0.1 START OF HEADER-->
-<header>
+<header class="fade">
   <img src="images/aimlogoV2.png" id="logo" alt="My logo"> <!--style="width:4.5125em;height:2.5125em;"  USE FOR DESKTOP SIZE-->
   <h3 id="header" class="justify">AIMRIVERA</h3><br/>
   <h6 id="header">WEB DESIGNER&nbsp;&#38;&nbsp;DEVELOPER</h6>
@@ -220,5 +217,8 @@
   </ul>
   </footer>
   <!--END OF FOOTER-->
+	<script>
+    $(".fade").hide(0).delay(500).fadeIn(3000)
+</script>							   
 </body>
 </html>

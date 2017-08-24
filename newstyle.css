@@ -13,7 +13,7 @@ body {
   margin: 1.5em 0px 0px 0px;
   background-image: url("images/homePage.jpg");
   background-repeat: no-repeat;
-  Background-position:center top;
+  Background-position:left top;
   Background-attachment:fixed;
   background-size: 150% 551px;
   overflow-x: hidden; }

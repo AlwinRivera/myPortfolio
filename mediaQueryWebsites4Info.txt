@@ -2,10 +2,7 @@ http://cssmediaqueries.com/
 
 https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
-#test p {
-    margin-top: 25px;
-    font-size: 21px;
-    text-align: center;
+#fade {
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */

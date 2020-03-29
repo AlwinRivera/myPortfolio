@@ -1,5 +1,5 @@
 @media only screen and (min-device-width:320px){html{height:100%;}
-body{background-image:url(../../assets/images/homePage.png);background-repeat:no-repeat;background-position:left top;background-size:100% 551px;}
+body{background-image:url(images/homePage.png);background-repeat:no-repeat;background-position:left top;background-size:100% 551px;}
 .container-fluid{padding:60px 50px;background-color:#fff;}
 .imgLogo{margin-top:.5em;margin-left:1.4em;}
 h4{color:#b6b6b6;}
